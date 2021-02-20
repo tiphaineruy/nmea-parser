@@ -1,24 +1,23 @@
 [package]
-name          = "nmea-parser"
-version       = "0.8.0-dev"
-publish       = false
-description   = "NMEA 0183 parser for AIS and GNSS sentences"
-authors       = ["Timo Saarinen <zaari@mailbox.org>"]
-license       = "Apache-2.0"
-repository    = "https://github.com/zaari/nmea-parser"
+name = "nmea-parser"
+version = "0.8.0-dev"
+publish = false
+description = "NMEA 0183 parser for AIS and GNSS sentences"
+authors = ["Timo Saarinen <zaari@mailbox.org>"]
+license = "Apache-2.0"
+repository = "https://github.com/zaari/nmea-parser"
 documentation = "https://docs.rs/nmea-parser"
-keywords      = ["nmea", "ais", "gnss", "gps"]
-categories    = ["parsing"]
-readme        = "README.md"
-edition       = "2018"
+keywords = ["nmea", "ais", "gnss", "gps"]
+categories = ["parsing"]
+readme = "README.md"
+edition = "2018"
 #rust-version  = "1.43"
 
 [dependencies]
-bitvec     = "0.20.1"
+bitvec = "0.21.0"
 num-traits = "0.2.14"
-chrono     = "0.4.19"
-log        = "0.4.14"
+chrono = "0.4.19"
+log = "0.4.14"
 
 [dev-dependencies]
-assert     = "0.7.4"
-
+assert = "0.7.4"
